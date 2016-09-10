@@ -951,7 +951,6 @@ button.note-color-btn {
 	color:#000;
 	font-size:1.7em;
 	font-weight:300;
-	margin-bottom: 1em;
 }
 .grid_3 p{
   color: #999;
@@ -1477,7 +1476,7 @@ div.checker input {
   background: #FAFAFA;
 }
 .table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-  padding:15px !important;
+  padding:10px !important;
 }
 .table > thead > tr > th {
   border-bottom: 1px solid #ddd !important;
@@ -2695,4 +2694,20 @@ span.btn_6{
 span.btn_7{
   font-size: 64%;
 }
+}
+
+th.success > span > img{
+  height: 20px;
+  width: 25px;
+  background: green none repeat scroll 0% 0%;
+  border-radius: 50%;
+}
+th.warning > span > img{
+  height: 20px;
+  width: 25px;
+  background: #ff1919 none repeat scroll 0% 0%;
+  border-radius: 50%;
+}
+tr{
+  border-bottom: thin solid silver;
 }
