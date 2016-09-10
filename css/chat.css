@@ -124,6 +124,15 @@ p {
 .green:after {
   border-bottom-color: #ace44b;
 }
+.time{
+  font-weight: bold;
+  color: grey;
+  padding-left: 10px;
+}
+.panel-body{
+  max-height: 250px;
+  overflow: scroll;
+}
 
 
 
