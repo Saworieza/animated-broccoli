@@ -852,7 +852,7 @@ i.dollar1{
 }
 /*-- graphs --*/
 .graphs{
-  padding: 5em 1em;
+  padding: 1em 1em;
   background: #f2f4f8;
   font-family: 'Roboto', sans-serif;
 }
@@ -2710,4 +2710,10 @@ th.warning > span > img{
 }
 tr{
   border-bottom: thin solid silver;
+}
+.panel-head-sms{
+  height: 35px !important;
+  padding: 10px !important;
+  padding-left: 20px !important;
+  text-transform: capitalize;
 }

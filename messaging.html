@@ -13,6 +13,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 <!-- Custom CSS -->
+<link rel="stylesheet" type="text/css" href="css/chat.css">
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!-- jQuery -->
@@ -145,62 +146,87 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div id="page-wrapper">
         <div class="col-md-12 graphs">
 	   <div class="xs">
-  	 <h3>Call ...</h3>
+  	 <h3>SMS ...</h3>
   	<div class="bs-example4" data-example-id="contextual-table">
-    <table class="table table-hover">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name/ Phone Number</th>
-          <th>Date</th>
-          <th>Duration</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="success">
-          <th class= "success" scope="success"><span><img src="images/icons/arrow-left.png"></span> </td>
-          <td>+254 712 345 678</td>
-          <td>12/16/2016 23:46:59</td>
-          <td>00:09:34 </td>
-        </tr>
-        <tr class="warning">
-          <th class= "warning" scope="success"><span><img src="images/icons/arrow-right.png"></span> </td>
-          <td>+254 712 345 678</td>
-          <td>12/16/2016 23:46:59</td>
-          <td>00:12:48</td>
-        </tr>
-        <tr class="success">
-          <th class= "success" scope="success"><span><img src="images/icons/arrow-left.png"></th>
-          <td>+254 712 345 678</td>
-          <td>12/16/2016 23:46:59</td>
-          <td>00:12:48 </td>
-        </tr>
-        <tr class="warning">
-          <th class= "warning" scope="success"><span><img src="images/icons/arrow-right.png"></span> </td>
-          <td>Collins Nyagwala</td>
-          <td>12/16/2016 23:46:59</td>
-          <td>00:05:48 </td>
-        </tr>
-        <tr class="warning">
-          <th class= "warning" scope="success"><span><img src="images/icons/arrow-right.png"></span> </td>
-          <td>+254 712 345 678</td>
-          <td>12/16/2016 23:46:59</td>
-          <td>00:05:48 </td>
-        </tr>
-        <tr class="success">
-          <th class= "success" scope="success"><span><img src="images/icons/arrow-left.png"></span> </td>
-          <td>Steve</td>
-          <td>12/16/2016 23:46:59</td>
-          <td>00:05:48 </td>
-        </tr>
-        <tr class="warning">
-          <th class= "warning" scope="success"><span><img src="images/icons/arrow-right.png"></span> </td>
-          <td>Jeff Denge</td>
-          <td>12/16/2016 23:46:59</td>
-          <td>00:32:48</td>
-        </tr>
-      </tbody>
-    </table>
+
+    <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading panel-head-sms">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+        <div class="text-container">
+            <p class="datestamp">Sept 2016, 4:16 PM</p>
+
+            <div class="bubble">
+              <p>Hey how's it going?</p>
+            </div>
+
+          
+            <div class="bubble bubble-alt green">
+              <p>Just sending out random SMS to people</p>
+            </div>
+          
+            <div class="bubble">
+              <p>Cool, cool.</p>
+            </div>
+            
+            <div class="bubble">
+              <p>Sometimes I do that too. Like right now.</p>
+            </div>
+          
+            <div class="bubble bubble-alt green">
+              <p>So how's life? Anything interesting? I'm okay just hanging around doing nothing staring out the window, thinking I should go outside but eh.</p>
+            </div>
+          
+            <div class="bubble">
+              <p>Yeah sweet bro. Today I'm feeling pink.</p>
+            </div>
+            
+            <div class="bubble bubble-alt green">
+              <p>I'm kinda going yellow today.</p>
+            </div>
+            
+            <div class="bubble bubble-alt green">
+              <p>No wait red.</p>
+            </div>
+
+            <div class="bubble">
+              <p>So how's life? Anything interesting? I'm okay just hanging around .</p>
+            </div>
+          </div><!-- @end .container -->
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading panel-head-sms">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading panel-head-sms">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+  </div> 
+</div>
    </div>
    
     
