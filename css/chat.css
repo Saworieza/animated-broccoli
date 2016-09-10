@@ -133,6 +133,14 @@ p {
   max-height: 250px;
   overflow: scroll;
 }
+.up-time{
+  position: absolute;
+  right: 100px;
+  font-weight: 300;
+}
+a:hover{
+  text-decoration: none;
+}
 
 
 
