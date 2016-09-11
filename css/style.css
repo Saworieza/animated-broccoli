@@ -852,7 +852,7 @@ i.dollar1{
 }
 /*-- graphs --*/
 .graphs{
-  padding: 1em 1em;
+  padding: 4em 1em;
   background: #f2f4f8;
   font-family: 'Roboto', sans-serif;
 }
@@ -1838,11 +1838,10 @@ h3.count.text-light {
   float: left;
 }
 label.round {
-  background: #DC483A;
+  background: rgb(6, 217, 149);
   width: 10px;
   height: 10px;
   display: block;
-  float: right;
   border-radius: 100px;
   margin-top: 8%;
 }
@@ -2699,13 +2698,31 @@ span.btn_7{
 th.success > span > img{
   height: 20px;
   width: 25px;
+  padding:2px;
   background: green none repeat scroll 0% 0%;
   border-radius: 50%;
 }
 th.warning > span > img{
   height: 20px;
+  padding:2px;
   width: 25px;
   background: #ff1919 none repeat scroll 0% 0%;
+  border-radius: 50%;
+}
+th.app-success > span > img{
+  height: 20px;
+  width: 25px;
+  padding:2px;
+  border:thin solid green;
+  background: rgba(0,255,0,.6);
+  border-radius: 50%;
+}
+th.app-warning > span > img{
+  height: 20px;
+  padding:2px;
+  width: 25px;
+  border:thin solid red;
+  background: rgba(255,0,0,.3);
   border-radius: 50%;
 }
 tr{
