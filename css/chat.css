@@ -42,7 +42,11 @@ p {
   margin: 0 auto;
   max-width: 600px;
 }
-
+.image-container{
+  float: left;
+  margin: 0 auto;
+  max-width: 800px;
+}
 
 /** message bubbles **/
 .bubble {
