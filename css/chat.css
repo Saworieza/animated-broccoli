@@ -61,15 +61,10 @@ p {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.15, #bee2ff), color-stop(1, #95c2fd));
   background-image: linear-gradient(bottom, #bee2ff 15%, #95c2fd 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#95c2fd', endColorstr='#bee2ff');
- 
-  border: solid 1px rgba(0,0,0,0.5);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
+  
+  /*border: solid 1px rgba(0,0,0,0.5);*/
   border-radius: 20px;
-
-  -webkit-box-shadow: inset 0 8px 5px rgba(255,255,255,0.65), 0 1px 2px rgba(0,0,0,0.2);
-  -moz-box-shadow: inset 0 8px 5px rgba(255,255,255,0.65), 0 1px 2px rgba(0,0,0,0.2);
-  box-shadow: inset 0 8px 5px rgba(255,255,255,0.65), 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: inset 0 8px 5px rgba(255,255,255,0.5), 0 2px 2px rgba(0,0,0,0.9);
   
   margin-bottom: 20px;
   padding: 6px 20px;
@@ -94,6 +89,7 @@ p {
 .bubble:after {
   border: 8px solid transparent;
   border-bottom-color: #bee2ff; /* arrow color */
+  box-shadow: 0 2px 0px rgba(0,0,0,0.55);
   bottom: 1px;
   left: -5px;
 }
@@ -127,6 +123,7 @@ p {
 }
 .green:after {
   border-bottom-color: #ace44b;
+  box-shadow: 0 2px 0px rgba(0,0,0,0.55);
 }
 .time{
   font-weight: bold;
@@ -145,7 +142,11 @@ p {
 a:hover{
   text-decoration: none;
 }
-
+.timing{
+  margin-bottom: 0px !important;
+  font-size: 0.7em !important;
+  font-weight: 600 !important
+}
 
 
 
