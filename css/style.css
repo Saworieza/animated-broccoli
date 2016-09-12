@@ -600,6 +600,7 @@ h4.pull-left{
 .copy p, .copy_layout p{
 	font-size:0.85em;
 	color:#555;
+  margin-left: -200px;
 }
 .copy p a, .copy_layout p a{
 	color:#000;
@@ -923,7 +924,8 @@ canvas#doughnut, canvas#line, canvas#polarArea, #bar, #pie, #radar{
 .bs-example4 {
   background: #fff;
   padding: 2em;
-}
+  height: 120vh;
+  }
 button.note-color-btn {
   width: 20px !important;
   height: 20px !important;
@@ -1650,7 +1652,6 @@ blockquote {
   width: 100%;
   text-align: center;
   border:thin solid silver;
-  max-width: 970px;
 }
 .login{
 	background:none;
