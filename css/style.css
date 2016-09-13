@@ -924,7 +924,7 @@ canvas#doughnut, canvas#line, canvas#polarArea, #bar, #pie, #radar{
 .bs-example4 {
   background: #fff;
   padding: 2em;
-  height: 75vh;
+  height: 76vh;
   overflow-y: scroll;
   overflow-x: hidden;
   }
