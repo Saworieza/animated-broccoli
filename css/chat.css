@@ -132,7 +132,8 @@ p {
 }
 .panel-body{
   max-height: 250px;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .up-time{
   position: absolute;

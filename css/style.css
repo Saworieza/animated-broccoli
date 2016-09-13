@@ -924,7 +924,9 @@ canvas#doughnut, canvas#line, canvas#polarArea, #bar, #pie, #radar{
 .bs-example4 {
   background: #fff;
   padding: 2em;
-  height: 120vh;
+  height: 75vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
   }
 button.note-color-btn {
   width: 20px !important;
