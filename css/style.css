@@ -853,7 +853,7 @@ i.dollar1{
 }
 /*-- graphs --*/
 .graphs{
-  padding: 3em 1em;
+  padding: 2em 1em;
   background: #f2f4f8;
   font-family: 'Roboto', sans-serif;
 }
@@ -924,7 +924,7 @@ canvas#doughnut, canvas#line, canvas#polarArea, #bar, #pie, #radar{
 .bs-example4 {
   background: #fff;
   padding: 2em;
-  height: 78vh;
+  height: 76vh;
   overflow-y: scroll;
   overflow-x: hidden;
   }
@@ -955,6 +955,7 @@ button.note-color-btn {
 	color:#000;
 	font-size:1.7em;
 	font-weight:300;
+  margin-top:1.1em;
 }
 .grid_3 p{
   color: #999;
