@@ -131,7 +131,7 @@ p {
   padding-left: 10px;
 }
 .panel-body{
-  max-height: 250px;
+  max-height: 22em;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -148,6 +148,14 @@ a:hover{
   margin-bottom: 0px !important;
   font-size: 0.7em !important;
   font-weight: 600 !important
+}
+@media (min-width:360px){
+  .up-time{
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: -15px;
+    margin-right: -5em;
+  }
 }
 
 
