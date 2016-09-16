@@ -2744,3 +2744,23 @@ tr{
   padding-left: 20px !important;
   text-transform: capitalize;
 }
+
+/* Mapping*/
+.map{
+  height:400px;
+  width:100%;
+  border: thin solid silver;
+  margin-bottom: 0.7em;"
+}
+.map-table{
+  height:400px; 
+  overflow-y: scroll;
+  width:100%; 
+  border-bottom: thin solid silver;
+  border-top: thin solid silver;
+  margin-bottom:0.7em;
+}
+.map-text{
+  width: 100%;
+}
+/* /Mapping*/
